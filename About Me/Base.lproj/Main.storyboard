@@ -266,6 +266,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bFL-vz-FNO"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Dogs" id="ybL-IV-Oil"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hLD-SL-l7G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -311,6 +312,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jvc-aX-scC"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Biking" id="6ZW-Yb-nFV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v9k-KQ-TmW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
