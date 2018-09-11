@@ -24,29 +24,45 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="I2Z-ae-5Yf">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="221"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" image="dogs" translatesAutoresizingMaskIntoConstraints="NO" id="KUb-bC-Vrv">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" image="dogs" translatesAutoresizingMaskIntoConstraints="NO" id="KUb-bC-Vrv">
                                                 <rect key="frame" x="0.0" y="0.0" width="335" height="191"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6wb-Fh-1Ek">
                                                 <rect key="frame" x="0.0" y="191" width="335" height="30"/>
                                                 <state key="normal" title="Dogs"/>
+                                                <connections>
+                                                    <segue destination="91V-TG-moc" kind="show" id="NDz-Da-7hz"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="01L-Ef-EKf">
                                         <rect key="frame" x="0.0" y="241" width="335" height="221"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" image="biking" translatesAutoresizingMaskIntoConstraints="NO" id="qD7-ne-iE7">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" image="biking" translatesAutoresizingMaskIntoConstraints="NO" id="qD7-ne-iE7">
                                                 <rect key="frame" x="0.0" y="0.0" width="335" height="191"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="20"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Dc-G9-iih">
                                                 <rect key="frame" x="0.0" y="191" width="335" height="30"/>
                                                 <state key="normal" title="Biking"/>
+                                                <connections>
+                                                    <segue destination="C6S-6a-eKb" kind="show" id="Ypw-wL-Kc4"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <variation key="heightClass=compact-widthClass=compact" axis="horizontal"/>
+                                <variation key="heightClass=compact-widthClass=regular" axis="horizontal"/>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -62,7 +78,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7WH-V6-beV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1464.8" y="279.31034482758622"/>
+            <point key="canvasLocation" x="1465" y="551"/>
         </scene>
         <!--Hi, I'm Nate!-->
         <scene sceneID="8vE-m8-hsb">
@@ -72,8 +88,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" image="nate" translatesAutoresizingMaskIntoConstraints="NO" id="86D-q3-ruE">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" image="nate" translatesAutoresizingMaskIntoConstraints="NO" id="86D-q3-ruE">
                                 <rect key="frame" x="20" y="136" width="335" height="412"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t47-6S-HF8">
                                 <rect key="frame" x="148.5" y="568" width="78" height="30"/>
@@ -98,7 +119,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QpA-DZ-Dv9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1464.8" y="-385.45727136431788"/>
+            <point key="canvasLocation" x="1465" y="-539"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oae-Jm-skO">
@@ -147,7 +168,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ldV-2Q-ziS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2233" y="-382"/>
+            <point key="canvasLocation" x="2233" y="-537"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="xIp-zt-sPf">
@@ -165,7 +186,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oGA-El-PaE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-239" y="-51"/>
+            <point key="canvasLocation" x="-79" y="-18"/>
         </scene>
         <!--Me-->
         <scene sceneID="HQ8-W7-cxL">
@@ -184,7 +205,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bnF-oE-suY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="710.39999999999998" y="-384.10794602698655"/>
+            <point key="canvasLocation" x="710" y="-538"/>
         </scene>
         <!--Interests-->
         <scene sceneID="7qu-5Y-8uW">
@@ -203,12 +224,106 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S8j-po-pY8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="709.60000000000002" y="280.20989505247377"/>
+            <point key="canvasLocation" x="710" y="552"/>
+        </scene>
+        <!--Dogs-->
+        <scene sceneID="qo1-Hc-TBh">
+            <objects>
+                <viewController title="Dogs" id="91V-TG-moc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iTx-Hz-MSU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="h85-KH-jQL">
+                                <rect key="frame" x="20" y="136" width="335" height="462"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dogs1" translatesAutoresizingMaskIntoConstraints="NO" id="FWe-Ym-TWc">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="221"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dogs2" translatesAutoresizingMaskIntoConstraints="NO" id="dec-Wm-1HX">
+                                        <rect key="frame" x="0.0" y="241" width="335" height="221"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                </subviews>
+                                <variation key="heightClass=compact-widthClass=regular" axis="horizontal"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bFL-vz-FNO" firstAttribute="bottom" secondItem="h85-KH-jQL" secondAttribute="bottom" constant="20" id="CJ5-VD-sS1"/>
+                            <constraint firstItem="h85-KH-jQL" firstAttribute="leading" secondItem="bFL-vz-FNO" secondAttribute="leading" constant="20" id="m2s-2k-zqy"/>
+                            <constraint firstItem="bFL-vz-FNO" firstAttribute="trailing" secondItem="h85-KH-jQL" secondAttribute="trailing" constant="20" id="tRs-VT-z5R"/>
+                            <constraint firstItem="h85-KH-jQL" firstAttribute="top" secondItem="bFL-vz-FNO" secondAttribute="top" constant="20" id="xjQ-bw-B0F"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bFL-vz-FNO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hLD-SL-l7G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2233" y="208"/>
+        </scene>
+        <!--Biking-->
+        <scene sceneID="crq-JK-M07">
+            <objects>
+                <viewController title="Biking" id="C6S-6a-eKb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K7U-XL-VRe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="h3V-2u-uNy">
+                                <rect key="frame" x="20" y="136" width="335" height="462"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bike1" translatesAutoresizingMaskIntoConstraints="NO" id="LQu-hW-Njp">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="221"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bike2" translatesAutoresizingMaskIntoConstraints="NO" id="Jek-AW-qkT">
+                                        <rect key="frame" x="0.0" y="241" width="335" height="221"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                </subviews>
+                                <variation key="heightClass=compact-widthClass=regular" axis="horizontal"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="h3V-2u-uNy" firstAttribute="leading" secondItem="jvc-aX-scC" secondAttribute="leading" constant="20" id="075-oX-cZ6"/>
+                            <constraint firstItem="h3V-2u-uNy" firstAttribute="top" secondItem="jvc-aX-scC" secondAttribute="top" constant="20" id="N8J-nm-IrY"/>
+                            <constraint firstItem="jvc-aX-scC" firstAttribute="bottom" secondItem="h3V-2u-uNy" secondAttribute="bottom" constant="20" id="PRf-17-TnI"/>
+                            <constraint firstItem="jvc-aX-scC" firstAttribute="trailing" secondItem="h3V-2u-uNy" secondAttribute="trailing" constant="20" id="aCr-s2-jRu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jvc-aX-scC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v9k-KQ-TmW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2233" y="911"/>
         </scene>
     </scenes>
     <resources>
+        <image name="bike1" width="4032" height="3024"/>
+        <image name="bike2" width="2048" height="1538"/>
         <image name="biking" width="4032" height="3024"/>
         <image name="dogs" width="2451" height="1838"/>
+        <image name="dogs1" width="750" height="662"/>
+        <image name="dogs2" width="750" height="1334"/>
         <image name="first" width="30" height="30"/>
         <image name="nate" width="1524" height="1737"/>
         <image name="second" width="30" height="30"/>
